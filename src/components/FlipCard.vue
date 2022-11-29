@@ -35,7 +35,7 @@ export default {
             </div>
             <div class="flip-card-back rounded-xl" v-if="open">
                 <p>Backside</p>
-                <img :src=image alt="Avatar" style="width:300px;height:300px;">
+                <img :src=image alt="Avatar" />
             </div>
         </div>
     </div>

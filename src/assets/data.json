@@ -1,18 +1,18 @@
 [
     {
-        "day": 1,
-        "image": "https://unsplash.com/photos/UnbOtvL1D9k/download?ixid=MnwxMjA3fDB8MXx0b3BpY3x8Qm4tRGpyY0Jyd298fHx8fDJ8fDE2Njk2NTE3MjE&force=true&w=640"
+        "image": "/images/DSC02496.jpg",
+        "day": 1
     },
     {
-        "day": 2,
-        "image": "https://unsplash.com/photos/UnbOtvL1D9k/download?ixid=MnwxMjA3fDB8MXx0b3BpY3x8Qm4tRGpyY0Jyd298fHx8fDJ8fDE2Njk2NTE3MjE&force=true&w=640"
+        "image": "/images/DSC02766.jpg",
+        "day": 2
     },
     {
-        "day": 3,
-        "image": "https://unsplash.com/photos/UnbOtvL1D9k/download?ixid=MnwxMjA3fDB8MXx0b3BpY3x8Qm4tRGpyY0Jyd298fHx8fDJ8fDE2Njk2NTE3MjE&force=true&w=640"
+        "image": "/images/DSC02931.jpg",
+        "day": 3
     },
     {
-        "day": 4,
-        "image": "https://unsplash.com/photos/UnbOtvL1D9k/download?ixid=MnwxMjA3fDB8MXx0b3BpY3x8Qm4tRGpyY0Jyd298fHx8fDJ8fDE2Njk2NTE3MjE&force=true&w=640"
+        "image": "/images/DSC03022.jpg",
+        "day": 4
     }
 ]
