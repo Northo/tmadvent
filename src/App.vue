@@ -19,6 +19,10 @@ function opensOn(index) {
 </script>
 
 <template>
+  <div class="detailed">
+    <img :src="detail_image" />
+  </div>
+
   <div class="flex flex-wrap gap-1">
     <FlipCard v-for="(day, index) in json" 
       :image="day.image"

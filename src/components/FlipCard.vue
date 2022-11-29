@@ -1,5 +1,7 @@
 <script>
 import * as moment from 'moment';
+import ArrowExpandAllIcon from 'vue-material-design-icons/ArrowExpandAll.vue';
+
 export default {
     props: {
         flipped: Boolean,
@@ -21,6 +23,9 @@ export default {
             sameElse: 'DD/MM/YYYY'
           })
         }
+    },
+    components: {
+      ArrowExpandAllIcon
     }
 }
 </script>
@@ -34,7 +39,11 @@ export default {
                 <span v-if="!open">Opens {{ this.opensOnString }}</span>
             </div>
             <div class="flip-card-back rounded-xl" v-if="open">
-                <p>Backside</p>
+                <span class="absolute left-2">
+                  <a :href="image" target="_blank" @click.stop>
+                   <arrow-expand-all-icon />
+                  </a>
+                </span>
                 <img :src=image alt="Avatar" />
             </div>
         </div>
