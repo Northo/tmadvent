@@ -9,7 +9,17 @@ export default {
     },
     computed: {
         open() {
-            return new Date() > this.opensOn;
+          return this.opensOn.startOf('day').isBefore()
+        }, 
+        opensOnString() {
+          return this.opensOn.calendar(null, {
+            sameDay: '[Today]',
+            nextDay: '[Tomorrow]',
+            nextWeek: 'dddd',
+            lastDay: '[Yesterday]',
+            lastWeek: '[Last] dddd',
+            sameElse: 'DD/MM/YYYY'
+          })
         }
     }
 }
@@ -21,7 +31,7 @@ export default {
             <div class="flip-card-front rounded-xl">
                 <h1>{{ day }}</h1>
                 T & M
-                <span v-if="!open">Opens at {{ this.opensOn.calendar() }}</span>
+                <span v-if="!open">Opens {{ this.opensOnString }}</span>
             </div>
             <div class="flip-card-back rounded-xl" v-if="open">
                 <p>Backside</p>
