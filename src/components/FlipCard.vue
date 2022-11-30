@@ -13,6 +13,9 @@ export default {
         open() {
           return this.opensOn.startOf('day').isBefore()
         }, 
+        imageURL() {
+          return import.meta.env.BASE_URL + this.image;
+        },
         opensOnString() {
           return this.opensOn.calendar(null, {
             sameDay: '[Today]',
@@ -40,11 +43,11 @@ export default {
             </div>
             <div class="flip-card-back rounded-xl" v-if="open">
                 <span class="absolute left-2">
-                  <a :href="image" target="_blank" @click.stop>
+                  <a :href="imageURL" target="_blank" @click.stop>
                    <arrow-expand-all-icon />
                   </a>
                 </span>
-                <img :src=image alt="Missing image" />
+                <img :src=imageURL alt="Missing image" />
             </div>
         </div>
     </div>
