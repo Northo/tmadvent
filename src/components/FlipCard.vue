@@ -86,7 +86,7 @@ export default {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #f19393;
   color: black;
 }
 
