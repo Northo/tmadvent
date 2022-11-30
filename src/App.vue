@@ -7,7 +7,7 @@ import 'virtual:windi.css'
 import json from './assets/data.json'
 import moment from 'moment'
 
-const startDay = '2022-11-28';
+const startDay = '2022-12-01';
 
 function flipped(index) {
   return moment(startDay).add(index + 1, 'days').startOf('day').isBefore()
