@@ -44,7 +44,7 @@ export default {
                    <arrow-expand-all-icon />
                   </a>
                 </span>
-                <img :src=image alt="Avatar" />
+                <img :src=image alt="Missing image" />
             </div>
         </div>
     </div>
