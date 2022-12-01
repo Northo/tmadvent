@@ -37,7 +37,7 @@ export default {
     <div class="flip-card" :class="{ flipped: flipped }" @click="flipped = open && !flipped">
         <div class="flip-card-inner">
             <div class="flip-card-front rounded-xl">
-                <h2 class="font-serif">H & M</h2>
+                <h2 class="font-serif">T & M</h2>
                 <h1 class="m-auto">{{ day }}</h1>
                 <span v-if="!open" class="absolute inset-x-0 bottom-0">Opens {{ this.opensOnString }}</span>
             </div>
