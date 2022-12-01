@@ -23,16 +23,22 @@
         "image": "images/06.jpg",
         "day": 6
     },
-    {
-        "image": "images/07.jpg",
-        "day": 4
-    },
-    {
-        "image": "images/08.jpg",
-        "day": 5
-    },
-    {
-        "image": "",
-        "day": 6
-    }
+    {"image": "", "day": 7},
+    {"image": "", "day": 8},
+    {"image": "", "day": 9},
+    {"image": "", "day": 10},
+    {"image": "", "day": 11},
+    {"image": "", "day": 12},
+    {"image": "", "day": 13},
+    {"image": "", "day": 14},
+    {"image": "", "day": 15},
+    {"image": "", "day": 16},
+    {"image": "", "day": 17},
+    {"image": "", "day": 18},
+    {"image": "", "day": 19},
+    {"image": "", "day": 20},
+    {"image": "", "day": 21},
+    {"image": "", "day": 22},
+    {"image": "", "day": 23},
+    {"image": "", "day": 24}
 ]
