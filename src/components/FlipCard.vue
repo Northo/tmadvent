@@ -16,6 +16,10 @@ export default {
         imageURL() {
           return import.meta.env.BASE_URL + this.image;
         },
+        imageSmallURL() {
+          const file = this.imageURL.split(".");
+          return file[0] + "-small." + file[1];
+        },
         opensOnString() {
           return this.opensOn.calendar(null, {
             sameDay: '[Today]',
@@ -47,7 +51,7 @@ export default {
                    <arrow-expand-all-icon />
                   </a>
                 </span>
-                <img :src=imageURL alt="Missing image" />
+                <img :src=imageSmallURL alt="Missing image" />
             </div>
         </div>
     </div>
