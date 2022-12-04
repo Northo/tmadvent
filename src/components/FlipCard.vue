@@ -51,7 +51,7 @@ export default {
                    <arrow-expand-all-icon />
                   </a>
                 </span>
-                <img :src=imageSmallURL alt="Missing image" />
+                <img :src=imageSmallURL alt="Missing image" class="card-image" />
             </div>
         </div>
     </div>
@@ -74,6 +74,12 @@ export default {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */

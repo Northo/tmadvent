@@ -7,5 +7,5 @@ for file in $(ls .); do
     ext="${file##*.}";
     newfile="${name}-small.${ext}";
     echo "${file} -> ${newfile}";
-    convert $file -resize 50 $newfile;
+    convert $file -resize 50% $newfile;
 done
